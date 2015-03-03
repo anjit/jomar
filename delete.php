@@ -1,0 +1,10 @@
+<?php
+include('header.php');
+?>
+<?php
+ob_start();
+$id=$_POST['id'];
+$table=$_POST['table'];
+$zoom->delete("$table","id='$id'");
+header('location:'.$_SERVER['HTTP_REFERER']);
+?>

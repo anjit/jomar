@@ -1,0 +1,136 @@
+#logo  a{ display:inline-block;}
+nav ul li{margin:0; padding:15px; float:none; display:inline-block;}
+nav ul li a{ display:inline-block;}
+nav ul li ul li{ padding:0;}
+#logo img {width:100%;}
+nav ul li ul{top: 48px;}
+@media only screen and (min-width:1366px) and (max-width: 1750px) {
+
+header{ padding:0 15px;}
+#logo{ width:16%;}
+nav {margin-left:15px;}
+nav ul li{padding: 8px;}
+.login-btn0{ font-size: 13px;width: 156px;padding-right: 5px;height: 40px;padding-top: 9px; background-position:11px 10px; margin: 40px 0 0 10px;}
+
+}
+
+
+@media only screen and (min-width:1280px) and (max-width: 1365px) {
+header{ padding:0 15px;}
+#logo{ width:13%;}
+nav {margin-left:15px;}
+nav ul li{padding: 7px;}
+.login-btn0{ font-size: 13px;width: 156px;padding-right: 5px;height: 40px;padding-top: 9px; background-position:11px 10px; margin: 40px 0 0 10px;}
+
+
+
+}
+
+
+@media only screen and (min-width: 1100px) and (max-width: 1280px) {
+.wrapper{ width:1080px;}
+header{ padding:0 15px;}
+#logo{ width:25%;}
+nav { margin:15px 0 0 0; float:right;}
+nav ul li{padding:10px;}
+
+
+
+}
+
+
+@media only screen and (min-width: 1024px) and (max-width:1099px) {
+
+.wrapper{ width:100%; padding:0 15px;}
+header{ padding:0 15px;}
+#logo{ width:22%;}
+nav {margin:15px 0 0 0; float:right;}
+nav ul li{padding:8px;}
+
+}
+
+
+@media only screen and (min-width: 991px) and (max-width:1024px) {
+
+.wrapper{ width:100%; padding:0 15px;}
+header{ padding:0 15px;}
+#logo{ width:22%;}
+nav {margin:15px 0 0 0; float:right;}
+nav ul li{padding:8px; font-size:16px;}
+
+
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 990px) {
+
+.wrapper{ width:100%; padding:0 15px;}
+header{ padding:0 15px;}
+#logo{ width:22%;}
+nav {margin:15px 0 0 0; float:right; width:100%;}
+nav ul li{padding:10px; font-size:16px;}
+nav ul{ display:block; float:none; text-align:center;}
+.details{ padding: 40px 35px;}
+
+
+}
+
+.toggle{ display:none; padding:13px; cursor:pointer; background:url(../images/menu_toggle.png) no-repeat 97% center;}
+nav ul{ display:block;}
+
+@media only screen and (max-width: 767px) {
+
+.wrapper{ width:100%; padding:0 15px;}
+header{ padding:0 15px;}
+#logo{ width:28%;}
+nav {margin:0; float:right; width:100%;}
+nav ul li{padding:10px; font-size:16px; display:block;}
+nav ul{ display:none; transition:none; float:none;}
+.toggle{ display:block;}
+.login-btn0{ font-size: 13px; width: auto; height: auto; background-position:11px 10px; margin: 40px 0 0 10px; padding:10px 10px 10px 38px;}
+.details {padding: 15px;}
+nav ul li ul{ width:100%; left:0; z-index:999;}
+}
+
+
+@media only screen and (max-width: 540px) {
+
+
+.login-btn0{ margin:15px 0 0 10px;}
+footer{ height:auto;}
+.location{ margin-top:10px;}
+.right-foot{ padding-top:10px;}
+.right-foot span{margin-bottom: 5px;}
+.details h3{ font-size:28px;}
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+header{ text-align:center;}
+#logo{ width:100%; text-align:center;}
+#logo img{width:28%;}
+.login-btn0{ float:none; display:inline-block;}
+nav{ margin-top:8px;}
+.form-box .col{ width:100%; margin-right:0;}
+}
+
+
+@media only screen and (max-width: 479px) {
+
+.location{ width:100%;}
+.right-foot{ width:100%;}
+#gallery ul li{ width:100%;}
+#gallery ul li img{ width:100%; margin-right:0;}
+
+}
+
+
+
+
